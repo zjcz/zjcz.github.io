@@ -4,15 +4,38 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi, I'm Jon, a software engineer working in the API & Integrations department of a consultancy company. My day-to-day involves working with a variety of technologies, including API Gateways, AWS, Java, and Linux.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Outside of work, I'm constantly expanding my skill set. Currently, I'm focusing on learning React, NodeJS, and TypeScript. Additionally, I have a keen interest in generative AI.
 
+I started this site as a place to collect and document my learning. I hope you find it useful.
 
-[jekyll-organization]: https://github.com/jekyll
+### Tech I am currently working with
+
+- AWS
+- Java
+- Linux
+- Git
+
+### Tech I previously worked with
+
+- C#, VB.Net, .Net Framework (up to 4.x)
+- SQL Server
+- jQuery
+- Bootstrap
+- Subversion
+
+### Stuff I am currently learning
+
+- NodeJS
+- React
+- TypeScript
+- AI (GitHub Copilot, GPT-3, etc.)
+
+### How to contact me
+
+- [GitHub](https://www.github.com/zjcz)
+- [LinkedIn](https://linkedin.com/in/jon-clarke-leeds)
+- [Dev.to](https://dev.to/zjcz)
