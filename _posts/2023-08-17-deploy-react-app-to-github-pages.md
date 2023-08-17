@@ -11,7 +11,7 @@ It is possible to deploy a React app to GitHub pages.  In this post we will do t
 
 If you want to see these steps in action take a look at this [sample GitHub repository](https://github.com/zjcz/gh-pages-app){:target="_blank"} created for this post.
 
-Note: The following instructions are for deploying a React app created using Create React App.  If you are using a different package to create and manage your react app you may need to make some changes.  The [gh-pages](https://github.com/tschaub/gh-pages){:target="_blank"} documentation contains information for working with Vite and Next.js.
+Note: The following instructions are for deploying a React app created using Create React App.  If you are using a different package to create and manage your React app you may need to make some changes.  The [gh-pages](https://github.com/tschaub/gh-pages){:target="_blank"} documentation contains information for working with Vite and Next.js.
 
 ## Prerequisites
 
@@ -32,6 +32,8 @@ git push -u origin main
 ```
 
 ## Deploy to GitHub Pages
+
+To deploy our React app to GitHub Pages, we are going to use an npm package called [gh-pages](https://github.com/tschaub/gh-pages){:target="_blank"}.  This package will copy the static files from the build folder to a branch called gh-pages.  From here GitHub will then copy the files from this branch to the GitHub Pages site.
 
 Lets start by installing the gh-pages package:
 
@@ -68,7 +70,7 @@ npm run deploy
 
 This will build the app and push the static files to the gh-pages branch on GitHub.  It will also set the relevent GitHub Pages settings for you.  To view these settings, go to the settings page of your GitHub repository and select the Pages option under Code and automation.  The Source is set to "Deploy from a branch" and the branch will be set to our new "gh-pages".
 
-Everytime you want to deploy your site simply run the `npm run deploy` command.
+Everytime you want to deploy your site to GitHub Pages simply run the `npm run deploy` command.
 
 ## Using GitHub Actions
 
@@ -121,7 +123,7 @@ Before we commit this, we need to check the permissions within GitHub to make su
 
 ![Workflow permissions](/assets/images/2023-08-17-github-actions-workflow-permissions-screenshot.png)
 
-Now commit the changes and push to GitHub.  GitHub Actions will automatically run the workflow and deploy.  You can monitor the progress via the "Actions" tab in the GitHub repository project.
+Now commit the changes and push to GitHub.  GitHub Actions will automatically run the workflow and deploy.  You can monitor the progress via the "Actions" tab in the GitHub repository project.  Don't forget it is a two part process; the first part is running our action above to copy the files to the gh-pages branch, the second part is GitHub Actions copying the files from the branch to GitHub Pages.  This can take a few minutes and you will see two separate actions running.
 
 ## Conclusion
 
