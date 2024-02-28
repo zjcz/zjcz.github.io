@@ -10,7 +10,7 @@ Bin Reminder Application is a simple mobile application designed to remind the u
 <!--more-->
 
 ## Introduction
-About 10 years ago I developed an app for Windows Mobile using .Net which allowed the user to enter information about the collection days of their dustbins and displayed a notification the day before the collection was due to remind them to put them out.  When Windows Mobile died I always intended on re-writing it for Android but never found the time.  After spending the last few weeks [Learning Flutter](/2024/02/27/learning-flutter) I decided to give it a go.
+About 10 years ago I developed an app for Windows Mobile using .Net which allowed the user to enter information about the collection days of their dustbins and displayed a notification the day before the collection was due to remind them to put them out.  When Windows Mobile died I always intended on re-writing it for Android but never found the time.  After spending the last few weeks [learning Flutter](/learning-flutter.html) I decided to give it a go.
 
 ## What is it?
 The main screen of the app will display a list of bins and the next collection date.  The user can add, edit and delete bins.  Using a background worker the app will display a notification the day before the collection is due.  Data is stored locally on the device.
