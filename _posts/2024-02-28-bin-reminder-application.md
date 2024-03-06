@@ -19,13 +19,13 @@ The main screen of the app will display a list of bins and the next collection d
 ![Edit Screen](/assets/images/2024-02-28-bin-reminder-edit-screenshot.png)
 
 ## Development
-The app was developed in Flutter using Android Studio.  The functionality of the app is quite simple, it contains one table in the database to store the bins.  The application has a main screen to display the list of bins and an edit screen to add and edit bins.  
+The app was developed in Flutter using Android Studio.  The functionality of the app is quite simple; it contains one table in the sqlite database to store the bins.  The application has a main screen to display the list of bins and an edit screen to add and edit bins.  
 
-The background worker is configured to check daily if any collection dates fall either today and tomorrow and if they do a notification is displayed.  To achieve this the worker triggers every hour and if it is the first time it has run on a certain date it runs it's checks.  I couldn't find a way of scheduling the worker to trigger at a set time each day, so I settled for this approach.  It is something I'd like to improve in the future.
+A background worker is configured to check daily if any collection dates fall either today and tomorrow and if they do a notification is displayed.  To achieve this the worker triggers every hour and if it is the first time it has run on the current day it performs its checks.  I couldn't find a way of scheduling the worker to trigger at a set time each day so I settled for this approach.  It is something I'd like to improve in the future.
 
-To avoid an issue with always having to recalculate the next collection date to ensure it is in the future I decided to refresh them (a) as part of the background worker and (b) when the application loads.  This means the user can add a bin with a collection date of today, then tomorrow when the date is in the past it will be corrected either the next time the worker runs or when the app loads (whichever happens first).
+To avoid an issue with always having to recalculate the next collection date to ensure it is in the future I decided to refresh them (a) as part of the background workers daily tasks and (b) when the application loads.  This means the user can add a bin with a collection date of today, then tomorrow when the date is in the past it will be corrected either the next time the background worker runs or when the app loads (whichever happens first).
 
-I structured the app code using the following folders:
+I structured the app code in the following way:
 - helpers - contains wrapper code for the 3rd party packages
 - models - contains the data model for the bin object
 - screens - contains the UI for the app.  This includes:
@@ -62,8 +62,9 @@ By their nature background workers are difficult to debug.  After following the 
 Flutter provides a Form widget with built in validation, however this only works with DropDownButton control and not DropDownMenu. I felt the DropDownMenu provided a much nicer UI with the ability to show icons in the dropdown items, so I ended up writing custom validation code to ensure the dropdowns had been populated before saving.
 
 ### Icons
-To illustrate the bins I used icons from [Font Awesome](https://fontawesome.com/){:target="_blank"} , using the [Flutter Font Awesome Package](https://pub.dev/packages/font_awesome_flutter){:target="_blank"}.  However this didn't provide all the icons I needed so I created my own set using Inkscape to generate the SVG icons and [Flutter Icon Generator](https://fluttericon.com/){:target="_blank"} to package them.  I also created my own icon for the application - I am not very good when it comes to drawing icons and logos as you can probably tell.
+To illustrate the bins I used icons from [Font Awesome](https://fontawesome.com/){:target="_blank"}, using the [Flutter Font Awesome Package](https://pub.dev/packages/font_awesome_flutter){:target="_blank"}.  However this didn't provide all the icons I needed so I created my own set using Inkscape to generate the SVG icons and [Flutter Icon Generator](https://fluttericon.com/){:target="_blank"} to package them.  I also created my own icon for the application - I am not very good when it comes to drawing icons and logos as you can probably tell.  I used the [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash){:target="_blank"} package to generate the Android loading screen.
 
 ## Summary
-
 You can view the complete code at [GitHub - Flutter Bin Reminder](https://github.com/zjcz/flutter-bin-reminder){:target="_blank"}.
+
+**Update 2024-03-06:** Updated to expand on some of my original points.
