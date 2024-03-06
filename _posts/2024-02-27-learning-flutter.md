@@ -48,8 +48,8 @@ So far I am loving my Flutter journey and intend to continue building on it.  Wh
 ## Further Reading
 - [Flutter](https://flutter.dev/){:target="_blank"}
 - [Flutter Docs](https://docs.flutter.dev/){:target="_blank"}
-- [FlutterDev | Reddit](https://www.reddit.com/r/FlutterDev/){:target="_blank"}
-- [flutterhelp | Reddit](https://www.reddit.com/r/flutterhelp/){:target="_blank"}
+- [FlutterDev - Reddit](https://www.reddit.com/r/FlutterDev/){:target="_blank"}
+- [flutterhelp - Reddit](https://www.reddit.com/r/flutterhelp/){:target="_blank"}
 - [StackOverflow](https://stackoverflow.com/questions/tagged/flutter){:target="_blank"}
 
 **Update 2024-03-06:** Updated to expand on some of my original points.
