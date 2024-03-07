@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="{{ page.title }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>      
+    <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+
+        <a class="navbar-item" href="/">
+          <img src="/favicon-32x32.png" alt="JC logo" width="32" height="32">
+        </a>
+
+    
+        <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/experience">
+            Experience
+          </a>
+          <a class="navbar-item" href="/skills">
+            Skills
+          </a>
+          <a class="navbar-item" href="/portfolio">
+            Portfolio
+          </a>     
+          <a class="navbar-item" href="/blog">
+            Blog
+          </a>               
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="button is-info" href="https://www.github.com/{{ site.github_username }}/" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-info" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">
+                  <span class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
+                  <span>LinkedIn</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    {{ content }}
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>          
+          Developed by Jon Clarke using <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>, <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>, <a href="https://bulma.io/" target="_blank" rel="noopener">Bulma css</a>, HTML and vanilla Javascript.
+        </p>
+      </div>
+    </footer>
+    </div>      
+  </body>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initNavbarBurger();
+    });
+
+      
+    function initNavbarBurger() {
+      // Get the "navbar-burger" element
+      const navbarBurger = document.getElementById('navbar-burger');
+
+      // Get the main navbar item          
+      const navBarContainer = document.getElementById("navbarMain");
+
+      if (navbarBurger && navBarContainer) {
+        // Add a click event to show the contents of the navbar when the burger menu is clicked
+        navbarBurger.addEventListener('click', () => {
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          navbarBurger.classList.toggle('is-active');
+          navBarContainer.classList.toggle('is-active');          
+        });
+      }
+
+      // Get all "navbar-item" elements
+      const navbarItems = navBarContainer.querySelectorAll('.navbar-item');
+
+      // Check if there are any navbar items
+      if (navbarItems && navbarItems.length > 0) {
+        // Add a click event on each of them
+        navbarItems.forEach( el => {
+          el.addEventListener('click', () => {
+            // De-activate the active class on the parent burger menu
+            navbarBurger.classList.toggle('is-active');
+            navBarContainer.classList.toggle('is-active');
+          });
+        });
+      }
+    }
+
+  </script>
+  <script src="https://kit.fontawesome.com/f4f27767b5.js" crossorigin="anonymous"></script>
+</html>

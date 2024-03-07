@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a.heading-anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}

@@ -1,0 +1,67 @@
+---
+layout: page
+title: Blog
+---
+
+<section class="section">
+  <div class="container">
+    
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}        
+        <h1 class="title">{{ page.list_title }}</h1>
+    {%- endif -%}
+      {%- for post in posts -%}
+      <div class="box">
+        <h2 class="title is-5">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>         
+        <p class="subtitle is-5 post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        {%- if site.show_excerpts -%}
+          <div class="block">    
+          {{ post.excerpt }}
+          </div>
+        {%- endif -%}
+        <div class="tags has-addons">
+          <span class="tag">Categories</span>
+          {%- for category in post.categories -%}
+            <span class="tag is-dark">{{ category }}</span>
+          {%- endfor -%}
+        </div>
+      </div>
+      {%- endfor -%}
+
+    {% if site.paginate %}
+      <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        {%- if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-previous">Prev</a>
+        {%- endif %}
+        {%- if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-next">Next</a>
+        {%- endif %}
+
+        <ul class="pagination-list">
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <li><a class="pagination-link is-current" aria-label="Goto page {{ paginator.page }}">{{ paginator.page }}</a></li>
+          {% elsif page == 1 %}
+            <li><a class="pagination-link" href="{{ '/blog' | relative_url }}">{{ page }}</a></li>
+          {% else %}
+            <li><a class="pagination-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </nav>
+    {%- endif %}
+
+  {%- endif -%}    
+  </div>
+</section>
+

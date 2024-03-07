@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="hero is-info has-text-centered">
+  <div class="hero-body">
+    <p class="title">
+    {{ page.title }}
+    </p>    
+    <p class="subtitle">Posted: {{ page.date | date: "%b %-d, %Y" }}</p>    
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tags has-addons">
+      <span class="tag">Categories</span>
+      {%- for category in page.categories -%}
+        <span class="tag is-dark">{{ category }}</span>
+      {%- endfor -%}
+    </div>
+        
+    <div class="content">
+    {{ content }}
+    </div>
+  </div>
+</section>
+  
