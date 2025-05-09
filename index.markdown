@@ -6,32 +6,31 @@ subtitle: Software Developer - Flutter | Java | Javascript | SQL | Cloud
 
 # About Me
 
-Hi, I'm Jon, a self employed mobile app developer. I have over 20 years [experience](/experience) as a developer, working with a number of languages and technologies.
-
-Outside of work, I'm constantly expanding my skill set. Currently, I'm focusing on learning React, NodeJS, and TypeScript. Additionally, I have a keen interest in generative AI.
+Hi, I'm Jon, a self employed mobile app developer using Flutter and Dart. Prior to this, I spent five years working as a Java developer, mainly developing backend services. Before this I used .Net for much of my career.
 
 I started this site as a place to collect and document my learning. I hope you find it useful.
 
 ### Tech I am currently working with
 
-- Flutter
+- Flutter / Dart
 - Java
-- Git
+- Git / GitHub
 - Linux
 
 ### Tech I previously worked with
 
 - C#, VB.Net, .Net Framework (up to 4.x)
+- AWS, GCP and Azure
 - SQL Server
 - jQuery
 - Bootstrap
 - Subversion
-- AWS
-- Azure
+
 
 ### Stuff I am currently learning
 
 - Flutter
+- Docker
 - NodeJS
 - React
 - TypeScript

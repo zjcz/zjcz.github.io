@@ -11,9 +11,9 @@ permalink: /skills/
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Flutter (3 Months)</h5>
+            <h5 class="title is-5">Flutter (18 Months)</h5>
             <div class="block">    
-              Medium level developer working with Dart 3, knowledge of state management, widgets, and plugins, developing Android apps.
+              Medium level developer working with Dart 3, knowledge of state management (Riverpod), widgets, and plugins, developing Android apps.
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Android SDK (6 Months)</h5>
+            <h5 class="title is-5">Native Android (Java) (6 Months)</h5>
             <div class="block">    
               Maintenance and bug fixes of an existing app
             </div>
@@ -89,7 +89,7 @@ permalink: /skills/
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Git (3 Years)</h5>
+            <h5 class="title is-5">Git (4 Years)</h5>
             <div class="block">    
               Basic-to-medium experience (branching, merge, pull requests).  Commandline as well as UI usage
             </div>
@@ -99,7 +99,7 @@ permalink: /skills/
           <div class="notification is-info is-light">
             <h5 class="title is-5">Cloud (2.5 Years)</h5>
             <div class="block">    
-              Using AWS and Azure, including Hosted Webapps, Virtual Machines, SQL Server, Webjobs, message queues and Azure Devops
+              Using GCP, AWS and Azure, including Hosted Webapps, Virtual Machines, SQL Server, Webjobs, message queues and Azure Devops
             </div>
           </div>
         </div>        
@@ -113,7 +113,7 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Linux (1 Year)</h5>
+            <h5 class="title is-5">Linux (3 Years)</h5>
             <div class="block">    
               Ubuntu and CentOS, used for every day development and server maintenance.
             </div>
@@ -145,7 +145,7 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Docker (3 Months)</h5>
+            <h5 class="title is-5">Docker (6 Months)</h5>
             <div class="block">    
               Basic setup and dockerfile creation
             </div>              
@@ -163,4 +163,4 @@ permalink: /skills/
         </div>
       </div>
     </div>
-  </section>  
+  </section>
