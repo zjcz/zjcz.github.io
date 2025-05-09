@@ -5,7 +5,7 @@ permalink: /experience/
 ---
 
 <div class="box">
-  <h2 class="title is-5">Self Employed</h2> 
+  <h2 class="title is-5">Happy Bunny Software</h2> 
   <h3 class="subtitle is-5">Software Developer - Dec 2023 to Now</h3>
 
   <div class="block">    
@@ -13,11 +13,11 @@ permalink: /experience/
   </div>
 
   <span class="tag is-dark">Flutter</span>
-
   <span class="tag is-dark">Git</span>
   <span class="tag is-dark">Android Studio</span>
   <span class="tag is-dark">APIs</span>
   <span class="tag is-dark">Linux</span>
+  <span class="tag is-dark">Gen AI / Copilots</span>
 </div>
 
 <div class="box">
@@ -117,7 +117,7 @@ permalink: /experience/
 </div>
 
 <div class="box">
-  <h2 class="title is-5">Happy Bunny Software Ltd</h2>
+  <h2 class="title is-5">Happy Bunny Software</h2>
   <h3 class="subtitle is-5">Software Developer - Oct 2004 to Sept 2015</h3>
 
   <div class="block">
