@@ -12,3 +12,11 @@ a.heading-anchor {
   height: 256px;
   width: 256px;
 }
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;    
+}
+.icon path {
+  fill: white;
+}
