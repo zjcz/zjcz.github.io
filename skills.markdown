@@ -6,7 +6,6 @@ permalink: /skills/
 
   <section class="section">
     <div class="container">
-      <a class="heading-anchor" name="skills"></a>      
       <h2 class="title is-5">Languages</h2>
       <div class="columns is-multiline">
         <div class="column is-one-quarter">

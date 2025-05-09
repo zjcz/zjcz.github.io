@@ -14,6 +14,7 @@ permalink: /experience/
 
   <span class="tag is-dark">Flutter</span>
   <span class="tag is-dark">Git</span>
+  <span class="tag is-dark">VS Code</span>
   <span class="tag is-dark">Android Studio</span>
   <span class="tag is-dark">APIs</span>
   <span class="tag is-dark">Linux</span>
