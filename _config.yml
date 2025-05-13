@@ -20,7 +20,7 @@
 
 title: Jon Clarke | Software Developer
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website by Jon Clarke, contain profile, portfolio information and blog
+  Personal website by Jon Clarke, contains profile, portfolio information and blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zjcz
