@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What I Learnt This Week"
+title: "What I Learnt This Week - 09 May 2025"
 date: 2025-05-09 17:00:00
 categories: what-i-learnt-this-week
 tags: [flutter, github copilot, ai]
