@@ -10,7 +10,9 @@ I recently setup a Samba share on my Linux Mint system to allow file sharing wit
 
 <!--more-->
 
-We're going to do this from the terminal, so make sure you have a terminal open.
+While it is possible to do this in the UI, I prefer to do it via the command line for better control and understanding of the process. This guide assumes you have a basic understanding of Linux commands and have administrative access to your Linux Mint system.
+
+This guide should work on any Debian-based distribution, including Ubuntu and its derivatives.
 
 ## Install and Configure
 
@@ -155,6 +157,10 @@ If you encounter any issues, you can check the Samba logs for more information. 
 ```bash
 sudo less /var/log/samba/log.smbd
 ```
+
+### Discovering the Share
+
+If you want the share to be discoverable by other devices on the network, consider investigating and using services such as `avahi-daemon` and `wsdd-service`.
 
 ## Further Reading
 
