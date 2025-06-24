@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installing Samba on Linux Mint"
-date: 2025-06-13 15:47:00
+date: 2025-06-16 11:07:00
 categories: linux
 tags: [linux, samba]
 ---
