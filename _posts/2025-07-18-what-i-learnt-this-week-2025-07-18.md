@@ -24,7 +24,7 @@ Naively I assumed a better GPU would help game loading times, but obviously it d
 
 ## With great power comes... boredom
 
-So now I have a great gaming PC (by my standards) and access to lots of great games, in fact more games than I have time to play.  But I feel like there is something missing.  It's as if it's the tracking down the components, the building, the configuring and extracting the last ounce of performance I enjoy more than actually playing the games.  
+So now I have a great gaming PC (by my standards) and access to lots of great games, in fact more games than I have time to play.  But I feel like there is something missing.  It's as if it's the tracking down the components, the building, the configuring and extracting the last ounce of performance I enjoy more than actually playing the games.  Maybe it's time to start shopping for a suitable base for a new Frankenstein PC I can spend the next 5 years tweaking.
 
 ## And Finally...
 
