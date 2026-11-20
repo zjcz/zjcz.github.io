@@ -5,11 +5,29 @@ permalink: /experience/
 ---
 
 <div class="box">
-  <h2 class="title is-5">Happy Bunny Software</h2> 
-  <h3 class="subtitle is-5">Software Developer - Dec 2023 to Now</h3>
+  <h2 class="title is-5">Cindercone Solutions</h2> 
+  <h3 class="subtitle is-5">Software Developer - Sept 2025 to Now</h3>
 
   <div class="block">    
-    Currently taking the opportunity to focus on mobile app development and expand my skill set. 
+    As an AI-first developer at Cindercone Solutions, I maintain and enhance core products built with Java, React, and C# (.NET 4.x). I work with AI agents to specify and deliver new functionality, while diagnosing and resolving complex issues across our core platform and ERP integrations (including Sage and SAP). This also involves working with data formats and transformations (XML, XSL, JSON, CSV) across HTTP and FTP protocols.
+  </div>
+
+  <span class="tag is-dark">Cursor AI</span>
+  <span class="tag is-dark">Java</span>
+  <span class="tag is-dark">React / Javascript</span>
+  <span class="tag is-dark">Azure Dev Ops</span>
+  <span class="tag is-dark">Git</span>
+  <span class="tag is-dark">Intellij</span>
+  <span class="tag is-dark">APIs</span>
+</div>
+
+
+<div class="box">
+  <h2 class="title is-5">Happy Bunny Software</h2> 
+  <h3 class="subtitle is-5">Software Developer - Dec 2023 to Sept 2025</h3>
+
+  <div class="block">    
+    Took the opportunity to focus on mobile app development and expand my skill set. 
   </div>
 
   <span class="tag is-dark">Flutter</span>
@@ -30,7 +48,7 @@ permalink: /experience/
   </div>
   <div class="content">    
     <ul>
-      <li>Passed <a href="https://www.credly.com/badges/8111ac42-4cb6-442a-9d42-9b2881965ebf" target="_blank">AWS Cloud Practitioner</a> certification and worked towards AWS Developer certification</li>
+      <li>Passed <a href="https://www.credly.com/badges/8111ac42-4cb6-442a-9d42-9b2881965ebf" target="_blank">AWS Cloud Practitioner</a> certification (expired June 2026) and worked towards AWS Developer certification</li>
     </ul>
   </div>
 

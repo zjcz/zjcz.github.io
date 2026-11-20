@@ -1,24 +1,32 @@
 ---
 layout: index
 title: Jon Clarke
-subtitle: Software Developer - Flutter | Java | Javascript | SQL | Cloud
+subtitle: Software Developer - AI | Java | Javascript | SQL | Cloud
 ---
 
 # About Me
 
-Hi, I'm Jon, a self employed mobile app developer using Flutter and Dart. Prior to this, I spent five years working as a Java developer, mainly developing backend services. Before this I used .Net for much of my career.
+Hi, I'm Jon, a software developer currently using AI to assist with Java and Javascript development. Prior to this, I spent time working with Flutter and Dart, more Java and C# .Net.  I also worked with Visual Basic 6 in the distant past, but you probably don't want to know about that.
 
 I started this site as a place to collect and document my learning. I hope you find it useful.
 
-### Tech I am currently working with
-
-- Flutter / Dart
+### Currently Working With
+- Cursor AI
 - Java
-- Git / GitHub
+- React / Javascript
+- MS SQL Server
+- Git
+- Azure Dev Ops
+
+### Outside of work I am using
+- More Java, More React
+- Docker
+- GitHub
 - Linux
-
-### Tech I previously worked with
-
+- Mac OS
+  
+### Previously Worked With
+- Flutter / Dart
 - C#, VB.Net, .Net Framework (up to 4.x)
 - AWS, GCP and Azure
 - SQL Server
@@ -26,17 +34,7 @@ I started this site as a place to collect and document my learning. I hope you f
 - Bootstrap
 - Subversion
 
-
-### Stuff I am currently learning
-
-- Flutter
-- Docker
-- NodeJS
-- React
-- TypeScript
-- AI (GitHub Copilot, ChatGPT, etc.)
-
-### How to contact me
+### More of me
 
 - [GitHub](https://www.github.com/zjcz)
 - [LinkedIn](https://linkedin.com/in/jon-clarke-leeds)

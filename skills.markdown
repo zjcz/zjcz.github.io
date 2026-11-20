@@ -10,20 +10,20 @@ permalink: /skills/
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
+            <h5 class="title is-5">Java (6 Years)</h5>
+            <div class="block">    
+              Mainly working with core Java 8 along with internally developed frameworks, some exposure to Java 11, 17, 21 and Springboot.
+            </div>
+          </div>
+        </div>      
+        <div class="column is-one-quarter">
+          <div class="notification is-info is-light">
             <h5 class="title is-5">Flutter (18 Months)</h5>
             <div class="block">    
               Medium level developer working with Dart 3, knowledge of state management (Riverpod), widgets, and plugins, developing Android apps.
             </div>
           </div>
-        </div>
-        <div class="column is-one-quarter">
-          <div class="notification is-info is-light">
-            <h5 class="title is-5">Java (5 Years)</h5>
-            <div class="block">    
-              Mainly working with core Java 8 along with internally developed frameworks, some exposure to Java 17 and Springboot 3.
-            </div>
-          </div>
-        </div>
+        </div>        
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
             <h5 class="title is-5">.Net (18 Years)</h5>
@@ -88,7 +88,15 @@ permalink: /skills/
       <div class="columns is-multiline">
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Git (4 Years)</h5>
+            <h5 class="title is-5">AI Development (18 Months)</h5>
+            <div class="block">    
+              Currently using Cursor for AI specifications and development.  Previously used Github Copilot and Gemini Code Assistant.
+            </div>
+          </div>
+        </div>      
+        <div class="column is-one-quarter">
+          <div class="notification is-info is-light">
+            <h5 class="title is-5">Git (5 Years)</h5>
             <div class="block">    
               Basic-to-medium experience (branching, merge, pull requests).  Commandline as well as UI usage
             </div>
@@ -96,7 +104,7 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Cloud (2.5 Years)</h5>
+            <h5 class="title is-5">Cloud (3.5 Years)</h5>
             <div class="block">    
               Using GCP, AWS and Azure, including Hosted Webapps, Virtual Machines, SQL Server, Webjobs, message queues and Azure Devops
             </div>
@@ -104,7 +112,7 @@ permalink: /skills/
         </div>        
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">APIs (10 Years)</h5>
+            <h5 class="title is-5">APIs (10+ Years)</h5>
             <div class="block">    
               Working with SOAP and REST APIs, both consuming and developing
             </div>
@@ -112,9 +120,9 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Linux (3 Years)</h5>
+            <h5 class="title is-5">Linux (4 Years)</h5>
             <div class="block">    
-              Ubuntu and CentOS, used for every day development and server maintenance.
+              Fedora, Ubuntu and CentOS, used for every day development and server maintenance.
             </div>
           </div>
         </div>        
@@ -144,9 +152,9 @@ permalink: /skills/
         </div>
         <div class="column is-one-quarter">
           <div class="notification is-info is-light">
-            <h5 class="title is-5">Docker (6 Months)</h5>
+            <h5 class="title is-5">Docker (1 Year)</h5>
             <div class="block">    
-              Basic setup and dockerfile creation
+              Basic setup, docker compose and dockerfile creation
             </div>              
           </div>
         </div>        

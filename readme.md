@@ -19,4 +19,4 @@ Follow this guide on how to [Set up your GitHub Pages site locally with Jekyll](
 
 - [Jekyll](https://jekyllrb.com/)
 - [GitHub Pages](https://pages.github.com/)
-- [Bulm CSS](https://bulma.io/)
+- [Bulma CSS](https://bulma.io/)
